@@ -1,0 +1,69 @@
+body{
+  font-family: 'Grandstander', cursive;
+  background: url('back.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.main{
+  background: rgb(31, 29, 29);
+  margin: 0 auto;
+  width: 70rem;
+}
+
+/*THE MAIN HEADER*/
+.main__menu{
+background: #ca3e47;
+width: 90%;
+margin: 0 auto;
+}
+.main__menu__item{
+  display: inline-block;
+  padding: 0.5rem 2.9rem;
+}
+.main__menu__item__link{
+  color:black;
+}
+.main__menu__item--active,
+.main__menu__item:hover {
+  box-shadow: inset 0 0 0 2em #313131;
+  transition: 0.5s;
+}
+.main__menu__item  a {
+  text-decoration: none;
+}
+.main__menu__item:hover a {
+  color:white
+}
+
+.main__menu__item a{
+  transition: 0.5s;
+  color:black;
+}
+/*THE MAIN HEADER END*/
+
+/*UNDER THE HEADER*/
+.main-submenu{
+  display: none;
+  margin-top: 20px;
+
+}
+
+.main-submenu-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: flex-end;
+}
+
+.main-submenu-box1,.main-submenu-box2,.main-submenu-box3,.main-submenu-box4{
+  background: #414141;
+  width: 150px;
+}
+
+.main-submenu-img{
+  margin-left: 20px;
+}
+.submenu-box1-title,.submenu-box2-title,.submenu-box3-title,.submenu-box4-title{
+  text-decoration: underline;
+  text-align: center;
+}
