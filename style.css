@@ -1,10 +1,10 @@
 body{
-  font-family: 'Grandstander', cursive;
   background: url('back.jpg');
   background-size: cover;
   background-attachment: fixed;
 }
 .main{
+  font-family: 'Grandstander', cursive;
   background: rgb(31, 29, 29);
   margin: 0 auto;
   width: 70rem;
@@ -67,3 +67,84 @@ margin: 0 auto;
   text-decoration: underline;
   text-align: center;
 }
+
+/*DROPDOWN 2*/
+.main2{
+  width: 70rem;
+  margin: 120px auto;
+}
+
+.main2-menu{
+  width: 90%;
+  background-color: #262626;
+  margin: 0 auto;
+}
+
+.main2-menu-item{
+  display: inline-block;
+  padding: 0.5rem 2.9rem;
+  transition:  0.3s;
+  position: relative;
+  line-height: 30px;  
+}
+.main2-menu-item:hover{
+  background-image: linear-gradient(rgb(75, 74, 74), rgb(27, 27, 27));
+  cursor: pointer;
+}
+.main2-menu-item:hover a{
+  color:#ff9602
+}
+.main2-menu-item-link{
+  text-decoration: none;
+  color: #d6902d;
+}
+.main2__menu__item:focus{
+  background-color: #D2861E;
+  color:black;
+}
+
+.main2__menu__item__dropdown{
+  position: absolute;
+  background-color: #262626;
+  color: #D2861E;
+  display: none; 
+  left: 0;
+  right: auto;
+  /* margin: 12px; */
+  width: 105px;
+  line-height: 50px;
+  margin: 0;
+  text-align: center;
+
+}
+.main2__menu__item__dropdown__element{
+  position: relative;
+  cursor: pointer;
+}
+.main2__menu__item__dropdown__element:hover{
+  background-image: linear-gradient(rgb(75, 74, 74), rgb(27, 27, 27));
+  color:#ff9500;
+
+}
+
+/* FOR THE BORDER BOTTOM OF THE DROPDOWN ELEMENTS */
+.main2__menu__item__dropdown__element::after{
+  content: '';
+  width: 100%;
+  position: absolute;
+  right: 0;
+  height: 1px;
+  display: block;
+  background-color: rgb(26, 22, 22);
+}
+
+
+.main2-menu-item--1:hover  .main2__menu__item__dropdown1 {display: block;}
+.main2-menu-item--2:hover  .main2__menu__item__dropdown2 {display: block;}
+.main2-menu-item--3:hover  .main2__menu__item__dropdown3 {display: block;}
+.main2-menu-item--4:hover  .main2__menu__item__dropdown4 {display: block;}
+.main2-menu-item--5:hover  .main2__menu__item__dropdown5 {display: block;}
+.main2-menu-item--6:hover  .main2__menu__item__dropdown6 {display: block;}
+.main2-menu-item--7:hover  .main2__menu__item__dropdown7 {display: block;}
+.main2-menu-item--8:hover  .main2__menu__item__dropdown8 {display: block;}
+.main2-menu-item--9:hover  .main2__menu__item__dropdown9 {display: block;}
