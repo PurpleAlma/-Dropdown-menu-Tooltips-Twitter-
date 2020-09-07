@@ -16,3 +16,8 @@ function hideSubmenu() {
     submenu.style.display = "none";
   }
 
+
+
+let dropdown1= document.querySelector('.main2__menu__item__dropdown1')
+let menu2_item_one=document.querySelector('.main2-menu-item--1')
+
