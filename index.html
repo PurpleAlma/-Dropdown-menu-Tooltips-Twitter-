@@ -1,186 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@100;300&display=swap" rel="stylesheet">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dropdown menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="main__menu">
-            <div class="main__menu__item menu__main__item--one">
-                <a class="main__menu__item__link" href="#">ONE</a>
-            </div> 
-            <div class="main__menu__item menu__main__item--two">
-                <a class="main__menu__item__link" href="#">TWO</a>
-            </div>
-            <div class="main__menu__item menu__main__item--three">
-                <a class="main__menu__item__link" href="#">THREE</a>
-            </div>
-            <div class="main__menu__item menu__main__item--four">
-                <a class="main__menu__item__link" href="#">FOUR</a>
-            </div>
-            <div class="main__menu__item menu__main__item--five">
-                <a class="main__menu__item__link" href="#">FIVE</a>
-            </div>
-            <div class="main__menu__item menu__main__item--six">
-                <a class="main__menu__item__link" href="#">SIX</a>
-            </div>
-            <div class="main__menu__item menu__main__item--seven">
-                <a class="main__menu__item__link" href="#"> SEVEN</a>
-            </div>
-        </div>
-
-        <div class="main-submenu">
-            <div class="main-submenu-boxes">
-                <div class="main-submenu-box1">
-                    <div class="submenu-box1-title"><h2>Box1</h2></div>
-                    <ul>
-                        <li>item1</li>
-                        <li>item1</li>
-                        <li>item1</li>
-                        <li>item1</li>
-                        <li>item1</li>
-                    </ul>
-                </div>
-
-                <div class="main-submenu-box2">
-                    <div class="submenu-box2-title"><h2>Box2</h2></div>
-                    <ol>
-                        <li>itema</li>
-                        <li>itemb</li>
-                        <li>itemc</li>
-                        <li>itemd</li>
-                        <li>iteme</li>
-                    </ol>
-                </div>
-
-                <div class="main-submenu-box3">
-                    <div class="submenu-box3-title"><h2>Box3</h2></div>
-                    <ol>
-                        <li>itema</li>
-                        <li>itemb</li>
-                        <li>itemc</li>
-                        <li>itemd</li>
-                        <li>iteme</li>
-                    </ol>
-                </div>
-
-                <div class="main-submenu-box4">
-                    <div class="submenu-box4-title"><h2>Box4</h2></div>
-                    <ol>
-                        <li>itema</li>
-                        <li>itemb</li>
-                        <li>itemc</li>
-                        <li>itemd</li>
-                        <li>iteme</li>
-                    </ol>
-                </div>
-            </div>
-
-            <div class="main-submenu-img">
-                <img src="image.jpg" alt="">
-            </div>
-        </div>
+    <header>TOOLTIPS </header>
+  <div class="article">
+    <div>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget sem pellentesque, ultricies dolor egestas, malesuada mauris. Fusce lorem felis, egestas tincidunt purus et, sodales luctus lectus. Praesent a congue eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris vitae malesuada urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in mauris justo. Curabitur rutrum, est nec viverra rutrum, dolor est volutpat dolor, vitae auctor urna nulla nec nibh. Nunc convallis libero luctus purus auctor, sed aliquet lectus fermentum. Nunc a massa ac sapien viverra consequat.
     </div>
-
-    <!--SECOND DROPDOWN-->
-    <div class="main2">
-        <div class="main2-menu">
-            <div class="main2-menu-item main2-menu-item--1" tabindex="1">
-                <a href="#" class="main2-menu-item-link main2-menu-item-link--1">A</a>
-            
-                <div class="main2__menu__item__dropdown main2__menu__item__dropdown1">
-                    <div class="main2__menu__item__dropdown__element ">element1</div>
-                    <div class="main2__menu__item__dropdown__element ">element2</div>
-                    <div class="main2__menu__item__dropdown__element ">element3</div>
-                    <div class="main2__menu__item__dropdown__element ">element4</div>
-                </div>
-            </div>
-
-            <div class="main2-menu-item main2-menu-item--2">
-                <a href="#" class="main2-menu-item-link main2-menu-item-link--2">B</a>
-                
-                <div class="main2__menu__item__dropdown main2__menu__item__dropdown2">
-                    <div class="main2__menu__item__dropdown__element ">element1</div>
-                    <div class="main2__menu__item__dropdown__element ">element2</div>
-                </div>
-            </div>
-
-            <div class="main2-menu-item main2-menu-item--3">
-                <a href="#" class="main2-menu-item-link main2-menu-item-link--3">C</a>
-                <div class="main2__menu__item__dropdown main2__menu__item__dropdown3">
-                    <div class="main2__menu__item__dropdown__element ">element1</div>
-                    <div class="main2__menu__item__dropdown__element ">element2</div>
-                    <div class="main2__menu__item__dropdown__element ">element3</div>
-                </div>
-
-            </div>
-
-            <div class="main2-menu-item main2-menu-item--4">
-                <a href="#" class="main2-menu-item-link main2-menu-item-link--4">D</a>
-                <div class="main2__menu__item__dropdown main2__menu__item__dropdown4">
-                    <div class="main2__menu__item__dropdown__element ">element1</div>
-                </div>
-
-            </div>
-
-            <div class="main2-menu-item main2-menu-item--5">
-                <a href="#" class="main2-menu-item-link main2-menu-item-link--5">E</a>
-                <div class="main2__menu__item__dropdown main2__menu__item__dropdown5">
-                    <div class="main2__menu__item__dropdown__element ">element1</div>
-                    <div class="main2__menu__item__dropdown__element ">element2</div>
-                    <div class="main2__menu__item__dropdown__element ">element3</div>
-                    <div class="main2__menu__item__dropdown__element ">element4</div>
-                    <div class="main2__menu__item__dropdown__element ">element5</div>
-                    <div class="main2__menu__item__dropdown__element ">element6</div>
-                </div>
-
-            </div>
-
-            <div class="main2-menu-item main2-menu-item--6">
-                <a href="#" class="main2-menu-item-link main2-menu-item-link--6">F</a>
-                <div class="main2__menu__item__dropdown main2__menu__item__dropdown6">
-                    <div class="main2__menu__item__dropdown__element ">element1</div>
-                    <div class="main2__menu__item__dropdown__element ">element2</div>
-                    <div class="main2__menu__item__dropdown__element ">element3</div>
-                    <div class="main2__menu__item__dropdown__element ">element4</div>
-                    <div class="main2__menu__item__dropdown__element ">element5</div>
-                </div>
-
-            </div>
-            <div class="main2-menu-item main2-menu-item--7">
-                <a href="#" class="main2-menu-item-link main2-menu-item-link--7">G</a>
-                <div class="main2__menu__item__dropdown main2__menu__item__dropdown7">
-                    <div class="main2__menu__item__dropdown__element ">element1</div>
-                    <div class="main2__menu__item__dropdown__element ">element2</div>
-                    <div class="main2__menu__item__dropdown__element ">element3</div>
-                </div>
-
-            </div>
-
-            <div class="main2-menu-item main2-menu-item--8">
-                <a href="#" class="main2-menu-item-link main2-menu-item-link--8">H</a>
-                <div class="main2__menu__item__dropdown main2__menu__item__dropdown8">
-                    <div class="main2__menu__item__dropdown__element ">element1</div>
-                    <div class="main2__menu__item__dropdown__element ">element2</div>
-                    <div class="main2__menu__item__dropdown__element ">element3</div>
-                    <div class="main2__menu__item__dropdown__element ">element4</div>
-                </div>
-
-            </div>
-
-            <div class="main2-menu-item main2-menu-item--9">
-                <a href="#" class="main2-menu-item-link main2-menu-item-link--9">I</a>
-                <div class="main2__menu__item__dropdown main2__menu__item__dropdown9">
-                    <div class="main2__menu__item__dropdown__element ">element1</div>
-                    <div class="main2__menu__item__dropdown__element ">element2</div>
-                </div>
-            </div>
-        </div>
+    <br>
+    <div>
+      Aliquam arcu mi, vehicula a sodales ut, dictum sit amet ex. Sed nec enim sed elit dapibus porta at eu felis. Quisque faucibus vel sem in bibendum. Nulla dictum, nunc in mattis tincidunt, nisi sapien blandit metus, ut bibendum tortor metus non nunc. Duis eu ultricies risus, quis mollis magna. Duis efficitur congue ante ut imperdiet. Vestibulum at sodales eros. Etiam id dictum ligula.
     </div>
-    <script src="app.js"></script>
+  </div>
+
+  <!-- <div class="tooltip-bar">
+    <div class="tooltip-item"><img src="like.png"></div>
+    <div class="tooltip-item"><img src="dislike.png"></div>
+    <div class="tooltip-item"><img src="comment.png"></div>
+    <div class="tooltip-item"><img src="star.png"></div>
+  </div> -->
+
+
+  <script src="app.js"></script>
 </body>
 </html>
